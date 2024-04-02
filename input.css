@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+.Montserrat{
+  font-family: "Montserrat", sans-serif;
+}
+.ble{
+  background: rgb(83,54,146);
+  background: linear-gradient(90deg, rgba(83,54,146,1) 0%, rgba(31,15,62,1) 74%);
+}
+.gradint-top{
+  background: rgb(83,54,146);
+  background: linear-gradient(0deg, rgba(83,54,146,1) 0%, rgba(31,15,62,1) 60%);
+}
+.flip{
+  transform: scaleX(-1);
+}
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
