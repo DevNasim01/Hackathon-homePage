@@ -25,7 +25,7 @@
         </div>
 
         <section class="h-dvh w-full swiper-slide">
-          <nav class="flex px-32 text-xl py-14 capitalize">
+          <nav class="flex px-[8vw] text-[1.5vw] py-[4vw] capitalize">
             <div class="">logo</div>
             <div class="w-full">
               <ul class="flex gap-14 justify-end">
@@ -39,22 +39,22 @@
           </nav>
 
           <main class="w-full flex">
-            <div class="w-full flex flex-col mt-10 gap-10 pl-32">
+            <div class="w-full flex flex-col mt-[4vw] gap-[4vw] pl-[8vw]">
               <div class="flex flex-col pb-14 gap-2">
                 <h1
-                  class="text-6xl font-semibold tracking-wide capitalize first-heading-text"
+                  class="text-[5vw]/[4.5vw] font-semibold tracking-wide capitalize first-heading-text"
                 >
                   <span class="first_heading"></span
                   ><span class="cursor">_</span>
                 </h1>
-                <p class="tracking-wider ft">See once, Remember Forever</p>
+                <p class="tracking-wider ft text-[1vw]">See once, Remember Forever</p>
               </div>
 
               <div
                 class="flex w-fit text-xl bg-gradient-to-r from-[#1f0f3e] to-[#533692] gap-4 items-center py-2 px-5 text-justify leading-tight tracking-wider home-box"
               >
                 <p class="text-6xl"><i class="fa-solid fa-envelope"></i></p>
-                <p>
+                <p class="text-[1.4vw]">
                   Detect every fake <br />
                   account to focus <br />
                   on your real users
@@ -62,8 +62,8 @@
               </div>
             </div>
 
-            <div class="w-[60%] flex justify-end items-center">
-              <img class="flip laptop" src="./assets/latop.png" alt="" />
+            <div class="w-[50%] flex justify-end items-center">
+              <img class="flip laptop w-full" src="./assets/latop.png" alt="" />
             </div>
           </main>
         </section>
@@ -71,15 +71,15 @@
         <section class="h-dvh w-full ble swiper-slide">
           <main class="h-full grid grid-cols-2 items-center">
             <div class="pl-28 flex flex-col">
-              <h1 class="text-5xl font-semibold tracking-wider capitalize">
+              <h1 class="text-[3.8vw]/[4.2vw] font-semibold tracking-wider capitalize">
                 <span class="second_heading"></span
                 ><span class="cursor">_</span>
               </h1>
-              <p class="text-lg tracking-wider opacity-75 py-2 paragraph Montserrat capitalize">
+              <p class="text-[1.4vw] tracking-wider opacity-75 py-2 paragraph Montserrat capitalize">
                 &nbsp; &nbsp; &nbsp; &nbsp; finds the bad actors who are using
                 fake accounts to exploit your reputation and defraud your users
               </p>
-              <p class="text-xl tracking-wide py-5 text-justify paragraph">
+              <p class="text-[1.4vw] tracking-wide py-5 text-justify paragraph">
                 Welcome to our digital hub! We're excited to introduce our newly
                 designed website. With this new platform, you can check your
                 account, gather information, and do much more. In today's
@@ -100,13 +100,15 @@
 
         <section class="h-dvh gradint-top overflow-hidden swiper-slide">
           <main class="w-full h-full flex flex-col justify-end relative">
-            <img
-              class="absolute -top-10 -right-20 third-img"
+            <div class="absolute -top-[1vw] -right-[5vw] third-img w-[40%] ">
+              <img
+              class="w-full"
               src="./assets/social media 1.png"
               alt=""
             />
-            <div class="px-28 py-2 h-full flex items-end">
-              <h1 class="text-6xl/tight font-bold w-[70%] capitalize">
+            </div>
+            <div class="ml-[8vw] py-2 h-full flex items-end">
+              <h1 class="text-[4vw]/[4.5vw] font-bold w-[70%] capitalize">
                 <span class="theird_heading w-full"></span
                 ><span class="cursor">_</span>
               </h1>
@@ -115,12 +117,12 @@
             <div class="w-full flex relative">
               <img class="w-[75%]" src="./assets/stage.png" alt="" />
 
-              <div class="absolute left-28 top-24 w-[60%]">
-                <p class="text-4xl mb-6 w-[85%] capitalize paragraph Montserrat">
+              <div class="absolute left-[8vw] top-[5.5vw] w-[60%]">
+                <p class="text-[2vw] mb-6 w-[70%] capitalize paragraph Montserrat">
                   Real-time risk intelligence can be used to effectively
                   eliminate fake accounts.
                 </p>
-                <p class="text-xl text-justify tracking-wide paragraph">
+                <p class="text-[1.4vw] text-justify tracking-wide paragraph">
                   Fake accounts are a significant source of fraudulent
                   activities, and detecting them is challenging due to
                   fraudsters tampering with device fingerprints or using
@@ -206,7 +208,7 @@
       first_heading_masterTl.add(t1);
 
       // theird_heading_ ------------------------------------------------------------------------------------------------
-      let theird_heading_text = "Management of your Social Account";
+      let theird_heading_text = "Management of your </br>  Social Account";
       let theird_heading_masterTl = gsap.timeline();
 
       let theird_heading_function = () => {

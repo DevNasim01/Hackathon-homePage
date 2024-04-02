@@ -582,6 +582,90 @@ video {
   top: 6rem;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
+.left-24 {
+  left: 6rem;
+}
+
+.top-\[1vw\] {
+  top: 1vw;
+}
+
+.top-\[3vw\] {
+  top: 3vw;
+}
+
+.top-\[5vw\] {
+  top: 5vw;
+}
+
+.top-\[5\.1vw\] {
+  top: 5.1vw;
+}
+
+.top-\[5\.4vw\] {
+  top: 5.4vw;
+}
+
+.left-\[4vw\] {
+  left: 4vw;
+}
+
+.left-\[5vw\] {
+  left: 5vw;
+}
+
+.left-\[5\.5vw\] {
+  left: 5.5vw;
+}
+
+.left-\[5\.8vw\] {
+  left: 5.8vw;
+}
+
+.left-\[6vw\] {
+  left: 6vw;
+}
+
+.left-\[8vw\] {
+  left: 8vw;
+}
+
+.top-\[5\.5vw\] {
+  top: 5.5vw;
+}
+
+.-top-\[1vw\] {
+  top: -1vw;
+}
+
+.-right-\[1vw\] {
+  right: -1vw;
+}
+
+.-right-\[0\.5vw\] {
+  right: -0.5vw;
+}
+
+.-right-\[0\.1vw\] {
+  right: -0.1vw;
+}
+
+.-right-\[0vw\] {
+  right: -0vw;
+}
+
+.right-\[0vw\] {
+  right: 0vw;
+}
+
+.-right-\[5vw\] {
+  right: -5vw;
+}
+
 .-z-20 {
   z-index: -20;
 }
@@ -592,6 +676,14 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-\[4vw\] {
+  margin-top: 4vw;
+}
+
+.ml-\[8vw\] {
+  margin-left: 8vw;
 }
 
 .flex {
@@ -651,6 +743,42 @@ video {
   width: 75%;
 }
 
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[5vw\] {
+  width: 5vw;
+}
+
+.w-\[62\%\] {
+  width: 62%;
+}
+
+.w-\[8vw\] {
+  width: 8vw;
+}
+
+.w-\[33\%\] {
+  width: 33%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -689,6 +817,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-\[4vw\] {
+  gap: 4vw;
 }
 
 .overflow-hidden {
@@ -769,6 +901,21 @@ video {
   padding-bottom: 3.5rem;
 }
 
+.px-\[1vw\] {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.px-\[8vw\] {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.py-\[4vw\] {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -779,6 +926,18 @@ video {
 
 .pl-32 {
   padding-left: 8rem;
+}
+
+.pl-\[2vw\] {
+  padding-left: 2vw;
+}
+
+.pl-\[10vw\] {
+  padding-left: 10vw;
+}
+
+.pl-\[8vw\] {
+  padding-left: 8vw;
 }
 
 .text-justify {
@@ -818,6 +977,90 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[4rem\]\/\[1\.2rem\] {
+  font-size: 4rem;
+  line-height: 1.2rem;
+}
+
+.text-\[4rem\]\/\[2\.2rem\] {
+  font-size: 4rem;
+  line-height: 2.2rem;
+}
+
+.text-\[4rem\]\/\[3\.2rem\] {
+  font-size: 4rem;
+  line-height: 3.2rem;
+}
+
+.text-\[4rem\]\/\[3\.8rem\] {
+  font-size: 4rem;
+  line-height: 3.8rem;
+}
+
+.text-\[4rem\]\/\[5rem\] {
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[2vw\] {
+  font-size: 2vw;
+}
+
+.text-\[1vw\] {
+  font-size: 1vw;
+}
+
+.text-\[1\.4vw\] {
+  font-size: 1.4vw;
+}
+
+.text-\[4vw\]\/\[5rem\] {
+  font-size: 4vw;
+  line-height: 5rem;
+}
+
+.text-\[5vw\]\/\[4vw\] {
+  font-size: 5vw;
+  line-height: 4vw;
+}
+
+.text-\[5vw\]\/\[4\.3vw\] {
+  font-size: 5vw;
+  line-height: 4.3vw;
+}
+
+.text-\[5vw\]\/\[4\.5vw\] {
+  font-size: 5vw;
+  line-height: 4.5vw;
+}
+
+.text-\[4vw\]\/\[4\.5vw\] {
+  font-size: 4vw;
+  line-height: 4.5vw;
+}
+
+.text-\[3\.8vw\]\/\[4\.2vw\] {
+  font-size: 3.8vw;
+  line-height: 4.2vw;
+}
+
+.text-\[1\.5vw\] {
+  font-size: 1.5vw;
+}
+
+.text-\[3vw\] {
+  font-size: 3vw;
+}
+
+.text-\[1\.8vw\] {
+  font-size: 1.8vw;
 }
 
 .font-bold {
